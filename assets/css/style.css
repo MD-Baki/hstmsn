@@ -104,7 +104,6 @@ nav .dropdown-menu li {
 }
 #banner svg {
     rotate: 180deg;
-    padding-bottom: 30px;
 }
 #banner svg .elementor-shape-fill {
     fill: #ffffff;
@@ -290,3 +289,86 @@ nav .dropdown-menu li {
     color: var(--secondary-font-color);
 }
 /* ||Experience Css End|| */
+
+/* Founder Intro Css Start */
+#announcement {
+    background: #f9f9f9;
+}
+#announcement svg {
+    height: 80px;
+    width: 100%;
+}
+#announcement svg path {
+    fill: rgba(113, 128, 150, 10%);
+}
+#announcement i {
+    margin-top: -40px;
+    font-size: 120px;
+    color: var(--secondary-font-color);
+    margin-bottom: 50px;
+}
+
+#founder {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#founder .founder-intro {
+    padding: 30px;
+    background: #fff;
+    border-radius: 8px;
+    height: 100%;
+    box-shadow: 0px 2px 13px -4px rgba(0, 0, 0, 0.21);
+}
+#founder .founder-intro i.fa-user-tie {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 35px;
+    border-radius: 50%;
+    background: #13c3ca;
+    color: #fff;
+}
+#founder .founder-intro h4 {
+    font-size: 18px;
+    font-weight: 400px;
+    color: var(--regular-font-color);
+    padding-top: 20px;
+}
+#founder .founder-intro h6 {
+    font-size: 15px;
+    font-weight: 400px;
+    color: var(--secondary-font-color);
+    padding: 10px 0;
+}
+#founder .founder-intro a {
+    font-size: 12px;
+    font-weight: 400px;
+    color: var(--prime-color);
+    background: #945df3;
+    padding: 2px 8px;
+    border-radius: 15px;
+}
+#founder .founder-intro p {
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 28px;
+    color: 4a5568;
+    padding-top: 10px;
+    font-style: italic;
+}
+#founder svg {
+    position: relative;
+    margin-top: -140px;
+    rotate: 180deg;
+    z-index: -1;
+}
+#founder svg .elementor-shape-fill {
+    fill: #f9f9f9;
+}
+#founder .bg_bottom_color {
+    background-color: #f9f9f9;
+    height: 70px;
+    margin-top: -1px;
+}
+/* ||Founder Intro Css End|| */
